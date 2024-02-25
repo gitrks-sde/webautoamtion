@@ -2,24 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-02-23T09:45:12 IST" name="nopCommerce" finished-at="2024-02-23T09:45:12 IST" duration-ms="299">
+  <suite started-at="2024-02-25T10:48:20 IST" name="Default suite" finished-at="2024-02-25T10:48:20 IST" duration-ms="624">
     <groups>
     </groups>
-    <test started-at="2024-02-23T09:45:12 IST" name="Login Test" finished-at="2024-02-23T09:45:12 IST" duration-ms="299">
-      <class name="nopcommerce.test.TC_Login">
-        <test-method is-config="true" signature="setConnection()[pri:0, instance:nopcommerce.test.TC_Login@359df09a]" started-at="2024-02-23T09:45:10 IST" name="setConnection" finished-at="2024-02-23T09:45:12 IST" duration-ms="2233" status="PASS">
+    <test started-at="2024-02-25T10:48:20 IST" name="Default test" finished-at="2024-02-25T10:48:20 IST" duration-ms="624">
+      <class name="nop.utilities.ReadAndWriteExcel">
+        <test-method signature="readExcel()[pri:0, instance:nop.utilities.ReadAndWriteExcel@28261e8e]" started-at="2024-02-25T10:48:20 IST" name="readExcel" finished-at="2024-02-25T10:48:20 IST" duration-ms="581" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setConnection -->
-        <test-method signature="login()[pri:0, instance:nopcommerce.test.TC_Login@359df09a]" started-at="2024-02-23T09:45:12 IST" name="login" finished-at="2024-02-23T09:45:12 IST" duration-ms="260" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- login -->
-        <test-method is-config="true" signature="closeConnections()[pri:0, instance:nopcommerce.test.TC_Login@359df09a]" started-at="2024-02-23T09:45:12 IST" name="closeConnections" finished-at="2024-02-23T09:45:21 IST" duration-ms="9057" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeConnections -->
-      </class> <!-- nopcommerce.test.TC_Login -->
-    </test> <!-- Login Test -->
-  </suite> <!-- nopCommerce -->
+        </test-method> <!-- readExcel -->
+      </class> <!-- nop.utilities.ReadAndWriteExcel -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
