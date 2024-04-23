@@ -13,7 +13,7 @@ import pageObejctdesign.HomePage;
 
 public class TestCase01 extends BaseTest {
 	static String username = "wolverinek11@rahulshetty.com";
-	static String password = "Pwdselenium@1";
+	static String password = "";
 
 	@Test
 	public void login() {
