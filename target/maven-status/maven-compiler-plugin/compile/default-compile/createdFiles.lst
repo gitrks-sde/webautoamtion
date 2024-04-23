@@ -1,2 +1,10 @@
+stepdefinitions\StepDefinitions.class
 nopcommerce\webautomation\BaseTest.class
+pageObejctdesign\HomePage.class
+stepdefinitions\StepDef2.class
+nop\utilities\LetShopListeners.class
+nop\utilities\ExtentReporterClass.class
+nop\utilities\ReadExcel.class
 nopcommerce\webautomation\LoginPage.class
+pageObejctdesign\ClientLoginPage.class
+pageObejctdesign\LoginPageLetShop.class
