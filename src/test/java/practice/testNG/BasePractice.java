@@ -13,7 +13,8 @@ public class BasePractice {
 	@BeforeMethod
 	public void beforeMethod()
 	{
-		System.out.println("-----Beefore Method-----");
+		System.out.println("-----Before Method-----");
+		
 	}
 	
 	@AfterMethod
