@@ -7,6 +7,7 @@
         <methods>
           <include name="closeConnections"/>
           <include name="setConnection"/>
+          <include name="classinfo"/>
           <include name="login"/>
         </methods>
       </class> <!-- nopcommerce.test.TC_Login -->

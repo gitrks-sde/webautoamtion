@@ -12,7 +12,7 @@ public class BaseTest {
 	public static WebDriver driver=null;
 
 	@BeforeSuite
-	public void setConnection() {
+	public void setConnection() throws InterruptedException {
 		
 		System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "\\drivers\\chromedriver.exe");
 		
@@ -21,6 +21,7 @@ public class BaseTest {
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
 		driver.get("https://rahulshettyacademy.com/client");
+		Thread.sleep(4000);
 		
 	}
 	

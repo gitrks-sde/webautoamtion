@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="nop.utilities.ReadAndWriteExcel">
+      <class name="nop.utilities.ReadExcel">
         <methods>
-          <include name="readExcel"/>
+          <include name="readExcelData"/>
         </methods>
-      </class> <!-- nop.utilities.ReadAndWriteExcel -->
+      </class> <!-- nop.utilities.ReadExcel -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
