@@ -19,7 +19,7 @@ public class BaseTest {
 		driver = new ChromeDriver();
 		
 		driver.manage().window().maximize();
-		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(8));
 		driver.get("https://rahulshettyacademy.com/client");
 		Thread.sleep(4000);
 		
